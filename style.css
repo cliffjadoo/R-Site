@@ -1,0 +1,145 @@
+/********************
+Media Queries 
+
+*********************/
+
+@media all and (min-width:320px) {
+    .myself,
+    .wrap {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .first-half,
+    .second-half {
+         width: 48%;
+        float: right;
+        margin: 1%;
+
+
+
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .first-half,
+    .second-half {
+        float: left;
+        padding: .5em;
+        width: 30%;
+
+    }
+    .head, .wrap {
+        width:50%;
+        float: right;
+        list-style-type: none;
+
+    }
+   
+}
+
+
+/**************
+
+Base styles 
+**************/
+
+#foot1 ul li{
+    float:left;
+    width:25%;
+    list-style-type: none;
+    display:inline;
+
+}
+
+.right1{
+    margin:0;
+}
+
+
+#foot1 ul li a {
+    text-decoration: none;
+    color: gray;
+    font-style: bold;
+
+}
+
+.portfolio,
+.contact {
+    clear: both;
+}
+
+.portfolio {
+    padding-bottom: 5em;
+}
+
+
+
+
+
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.contact,
+.text-container,
+.vertical-bar,
+.head {
+    text-align: center;
+}
+
+div#wrapper li a {
+    display: block;
+    border: 1px solid black;
+    padding: 5%;
+    text-align: center;
+    overflow: auto;
+    list-style: none;
+    text-decoration: none;
+}
+
+div.wrapper {
+    margin: 20px auto;
+    background-color: white;
+    width: 90%;
+    overflow: hidden;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+.myself,#text {
+	float:right;
+	width:40%;
+
+}
+
+#text {
+    float:left;
+    width: 55%;
+}
+
+.wrap ul li{
+    float:right;
+    background-color: black;
+}
+
+.first-half {
+    float: left;
+}
+
+.selfie {
+    max-width: 80%;
+}
+
+
+
+
+.contact {
+    background-color: gray;
+}
